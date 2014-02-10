@@ -1,5 +1,5 @@
 == README
 
-A sample Rails app to test file uploads.
+A sample Rails app to test Bootstrap, Devise, and file uploads.
 
 NOTES: This was only an experiment. This doesn't follow any test-driven practices.

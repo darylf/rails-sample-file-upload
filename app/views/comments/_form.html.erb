@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-
+  <%= f.hidden_field :idea_id %>
   <div class="field">
     <%= f.label :user_name %><br>
     <%= f.text_field :user_name %>
@@ -18,10 +18,6 @@
   <div class="field">
     <%= f.label :body %><br>
     <%= f.text_area :body %>
-  </div>
-  <div class="field">
-    <%= f.label :idea_id %><br>
-    <%= f.number_field :idea_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

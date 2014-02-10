@@ -15,6 +15,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
+gem 'devise'
 
 group :doc do
   gem 'sdoc', require: false
